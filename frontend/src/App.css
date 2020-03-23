@@ -35,6 +35,10 @@ body, input, button {
   margin-top: 50px;
   border-radius: 4px;
   padding: 30px;
+  border: 0 5px solid #e0e0e0;
+  box-shadow: 0 3px 3px -2px #bdbdbd;
+  -moz-box-shadow: 0 4px 4px -2px #bdbdbd;
+  -webkit-box-shadow: 0 4px 4px -2px #bdbdbd;
 }
 
 .content > p{
@@ -99,4 +103,19 @@ body, input, button {
   margin-bottom: 30px;
   
 }
-
+.historic {
+  width: 100%;
+  background: white;
+  margin-top: 50px;
+  border-radius: 4px;
+  padding: 30px;
+  border: 0 5px solid #e0e0e0;
+  box-shadow: 0 3px 3px -2px #bdbdbd;
+  -moz-box-shadow: 0 4px 4px -2px #bdbdbd;
+  -webkit-box-shadow: 0 4px 4px -2px #bdbdbd;
+}
+.historic > p{
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 30px;  
+}
