@@ -1,9 +1,7 @@
-const express = require("express");
-const routes = express.routes();
-
+const express = require('express');
+const routes = express.Router();
 const NumberController = require('./controllers/NumberController');
 
-app.post('/calculate', NumberController.calculate);
-
+routes.post('/calculate', NumberController.calculate);
 
 module.exports = routes;

@@ -9,9 +9,9 @@ html, body, #root{
 }
 
 body{
-  background-color: dodgerblue ;
+  background: black url('./assets/bridge.png') no-repeat;
   background-size: cover;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased !important;
 }
 
 body, input, button {
@@ -27,6 +27,7 @@ body, input, button {
   flex-direction: column;
   align-items: center;
 }
+
 
 .content {
   width: 100%;
@@ -80,4 +81,22 @@ body, input, button {
   background: rgb(14, 78, 143);
 }
 
+.result {
+  width: 100%;
+  background: white;
+  margin-top: 50px;
+  border-radius: 4px;
+  padding: 30px;
+  border: 0 5px solid #e0e0e0;
+  box-shadow: 0 3px 3px -2px #bdbdbd;
+  -moz-box-shadow: 0 4px 4px -2px #bdbdbd;
+  -webkit-box-shadow: 0 4px 4px -2px #bdbdbd;
+}
+
+.result > p{
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  
+}
 

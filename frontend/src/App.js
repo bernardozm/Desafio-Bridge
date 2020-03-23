@@ -12,12 +12,11 @@ function App() {
   async function handleSubmit(event) {
     event.preventDefault();
 
-
     const response = await api.post('/calculate', {number});
     if(response.data.isPrime === true){
-      setIsPrime('É primo');
+      setIsPrime('é primo');
     } else {
-      setIsPrime('Não é prima');
+      setIsPrime('não é primo');
     }
     setDividers(response.data.dividers);
    
@@ -26,7 +25,7 @@ function App() {
   }
   return (
     <div className = "container" >
-
+    
       <div className = "content">
         <p>
           Digite um <strong>número</strong> para verificar se ele é primo e conhecer seus divisores
@@ -47,17 +46,14 @@ function App() {
         </form>
       </div>   
       {isPrime ? 
-
-        <div className="result">
-          <h3>Número {number}:</h3>
-          <p> O número {number} {isPrime} e seus divisores são:</p>
+        <div className="result">         
+          <p> O número <strong>{number}</strong> <strong>{isPrime}</strong> e seus divisores são:</p>
           <ul>
-          {dividers.map(numero => <li>{numero}</li>)}
+          {dividers.map(number => <li>{number}</li>)}
           </ul>
-          </div>
+        </div>
             : 
- ''}
-
+          ''}
     </div>
   ); 
 }
