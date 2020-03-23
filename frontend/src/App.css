@@ -51,7 +51,7 @@ body, input, button {
   font-size: 14px; 
   color: #444;
   font-weight: bold;
-  margin-botton: 8px;
+  margin-bottom: 8px;
 }
 
 .content form input{
@@ -79,3 +79,5 @@ body, input, button {
 .content form button:hover{
   background: rgb(14, 78, 143);
 }
+
+
