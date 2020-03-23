@@ -18,13 +18,13 @@ Após clonar o repositório, entre no diretório frontend e digite
 em seguida digite
 'npm start'
 
-assim os pacotes Javascript utilizados na aplicação serao instalados
+assim os pacotes Javascript utilizados na aplicação serão instalados
 
 Depois entre no diretório backend e digite
 
 'npm install'
 em seguida digite
-'npm start'
+'node src/server.js'
 
 para instalar os pacotes JavaScript utilizados pelo backend da aplicação.
 
